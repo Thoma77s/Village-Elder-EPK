@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #f00000;
+    --primary-color: #696969;
     --secondary-color: black;
     --teritary-color: white;
 
@@ -22,7 +22,7 @@ header {
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: var(--teritiary-color);
+    color: var(--primary-color);
 }
 
 header a{
