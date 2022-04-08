@@ -26,7 +26,7 @@ header a{
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary-color);
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 
 .header-name-div{
@@ -37,6 +37,10 @@ body {
     font-size: large;
 }
 
+.tabs {
+    font-family: 'Audiowide', cursive; 
+}
+
 .tabs nav {
     margin: 7px 0;
 }
@@ -44,7 +48,7 @@ body {
 .tabs nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
     list-style: none;
 }
@@ -52,25 +56,26 @@ body {
 .tabs nav ul li {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
     list-style: none;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .tabs nav ul li a {
-    padding: 10px 15px;
+    padding: 5px 10px;
     font-weight: lighter;
     font-size: 2.55vw;
     font-style: bold;
-    font-family: impact, Haettenschweiler;
-    background: var(--primary-color)
-    
+    background: var(--secondary-color);
+    color: var(--teritary-color);  
+     
 }
+
 .tabs nav ul li a:hover {
     background: var(--secondary-color);
     color: var(--teritary-color);
-   
     text-shadow: none;
+    box-shadow: 0 0 0 1px var(--teritary-color);
 }
 
 

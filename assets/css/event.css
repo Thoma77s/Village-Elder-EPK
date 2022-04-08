@@ -1,0 +1,38 @@
+.event-list {
+    padding-top: 50px;
+}
+
+.item-event {
+    border: 1px solid #383837;
+    background: #000;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.display-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.item-event .event-date, .item-event .event-location {
+    background: #121212;
+    text-align: center;
+}
+
+.item-event .event-date {
+    border-right: 2px solid #000;
+    width: 50%;
+}
+
+.display-table .table-item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.item-event a {
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
+
